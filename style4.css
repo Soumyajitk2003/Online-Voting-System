@@ -1,0 +1,61 @@
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  margin: 10px;
+  padding: 0; /* Remove padding to fit image size */
+  border: none;
+  background-color: transparent; /* Set background color to transparent */
+  cursor: pointer;
+}
+
+.button-container button img {
+  width: 200px; /* Adjust the width of the image */
+  height: 200px; /* Adjust the height of the image */
+  border-radius: 50%; /* Make the image round */
+}
+
+/* Optional: Add hover effect */
+.button-container button:hover img {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #f372101f;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button-container button:hover {
+  background-color: #5fb300;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+
+
+table{
+  table-layout: auto;
+  width: 100%;
+  text-align: center;
+  
+}
+
+th{
+  background-color: rgb(179, 126, 29);
+  color: white;
+  height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+td{
+  background-color: blanchedalmond;
+  height: 50px;
+}
