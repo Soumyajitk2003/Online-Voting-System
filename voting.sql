@@ -62,11 +62,7 @@ CREATE TABLE `member_details` (
 -- Dumping data for table `member_details`
 --
 
-INSERT INTO `member_details` (`party`, `college_id`, `phone_no`, `fullName`, `aadharNum`, `voterNum`, `Email`, `User_Pass`, `votes`) VALUES
-('Party 1', 2132043, '9474595897', 'Soumyajit Kar', '497029511659', 'WIT2422080', 'soumyjitk41@gmail.com', '1234', 15),
-('Party 2', 2132042, '9064635640', 'Rajiv', '23456789012', '1234567', 'rajibmahato89@gmail.com', '5678', 0),
-('Party 3', 2132030, '7864947287', 'Thakurdas', '3456890123', 'wti889076', 'thakurdaslata87@gmail.com', '123456', 2),
-('Party 4', 2132001, '7384624861', 'Anwesha', '123456789012', '1234567', 'anwesha06@gmail.com', '123478', 0);
+
 
 -- --------------------------------------------------------
 
@@ -92,16 +88,6 @@ CREATE TABLE `registered_users` (
 -- Dumping data for table `registered_users`
 --
 
-INSERT INTO `registered_users` (`full_name`, `username`, `aadher`, `email`, `password`, `verification_code`, `is_verified`, `resettoken`, `resettokenexpire`, `voting`, `party`) VALUES
-('Arijit Das', '2132002', '905478774124', 'iamarjdas05@gmail.com', '$2y$10$CLr.FKxqjFCjTst57wgruepBTcu9gwjCtT4Js7dhW3g549gkCqqaW', '56e91aa12eb7910e5c1b222ec2a0dbb5', 1, NULL, NULL, 0, 'Soumyajit'),
-('Bankim Chandra Das', '2132004', '635269693212', 'bcdchannel990@gmail.com', '$2y$10$GZwCvWgSd0eYDMdaGX0mseHN39si4KbLIl17QSSQ4wyyvHTmt6t2W', 'e7d6e9f134bdaaa34d48ea212b4dfc96', 1, NULL, NULL, 1, 'Soumyajit'),
-('Krishnendu gorai', '2132012', '123456789012', 'krishnendugorai17@gmail.com', '$2y$10$Kfgzi3uAN3UVsYS0R8VNLOG3LpE7pJg.DtbN2VzWBG8JM75gIlyC6', '606a7f6ae72352799e8278de356d523e', 1, NULL, NULL, 1, 'Soumyajit'),
-('Souvik Gorai', '2132030', '1234567891234567', 'translatersouvik1@gmail.com', '$2y$10$D1C.aBQJdktbdcbK1tq6SuVqPTKVIDk3Nukt1rUvrgqtanvOBz6Fi', '4374386b6e8cb35254efb447af529fe2', 1, NULL, NULL, 1, 'Thakurdas'),
-('Thakurdas laya', '2132036', '153215324896', 'layathakurdas@gmail.com', '$2y$10$XqhHPPliQ.yiURZKzpXw4OxgHVQUzFRYT/sqXIcqTTSUpkmtntVvS', '69dcec73900ccc004afc1fa412eb071c', 0, NULL, NULL, 0, NULL),
-('Rajib mahato', '2132042', '255814703690', 'rrajibmahato7602@gmail.com', '$2y$10$jGu8XQ7Z7d49QSukpKpKVO7w8X1wU2X9fJUE2YlOJ6wLE/NE8RAne', '342cf8e97af347ee3dba1bdc25d0d6e3', 1, NULL, NULL, 1, 'Soumyajit'),
-('Subhajeet paramanik ', '26272627', '78768779787648', 'subhajeetparamanik838@gmail.com', '$2y$10$2Rmf0lN.8DVActQVmNb4LOTaIXE/1hjFCTFfMyqIarJfwxl3Ro1Vi', '7f1070a40973c11703b13eb93f230a21', 1, NULL, NULL, 1, 'Soumyajit'),
-('Shivam ', '7586648', '856975847856', 'shibamchandra911@gmail.com', '$2y$10$n5d0FCYDq4iVL7VXK6wOYelrmIWHHIyYyyMoTK9dTiTok2foz44iW', 'e15abe3c5c3a0e20c53d758c7bcdecc4', 1, NULL, NULL, 1, NULL),
-('Megha ', '9842679', '963258763524', 'karmegha006@gmail.com', '$2y$10$GWLjI63piQ7OUY0duYoLjuuhRx9RWQF5Zvq7eCOQ0qiTG5Vw4vcWm', '', 1, NULL, NULL, 1, 'Soumyajit');
 
 --
 -- Indexes for dumped tables
